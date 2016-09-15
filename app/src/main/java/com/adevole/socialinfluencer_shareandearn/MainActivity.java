@@ -13,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
 
     public static boolean isTrue(String bool){
         if(bool == null) return false;
-        return bool.contains("true");
+        return bool.contains("false");
     }
 }
